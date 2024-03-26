@@ -16,8 +16,9 @@ test(
 test(
     'chain locator', async({page}) =>{
         await page.goto('https://demoqa.com/login');
-        test.setTimeout(0);
+        
         //for enable debug mode.
+        test.setTimeout(0);
         await page.pause();
     }
 );
